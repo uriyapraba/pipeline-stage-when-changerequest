@@ -7,12 +7,12 @@ pipeline
         {
             when
             {
-                //changeRequest()
-                changeRequest title: "when-pr"
+                changeRequest()
+                //changeRequest title: "when-pr"
             }
             steps
             {
-                echo "Hello world build"
+                echo "This is dev branch"
             }
         }
     }
