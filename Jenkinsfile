@@ -7,7 +7,8 @@ pipeline
         {
             when
             {
-                changeRequest()
+                //changeRequest()
+                changeRequest title: "when-pr"
             }
             steps
             {
